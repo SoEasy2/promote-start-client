@@ -1,0 +1,43 @@
+
+/********************** Tippy ****************************/
+
+/*.tippy-box {*/
+/*    @apply px-2.5 py-2.5 -ml-1.75 rounded-1.25 min-w-35.5 font-normal text-xs text-gray-370 bg-purple-70 shadow-activeMenuMain*/
+/*}*/
+
+/*.dark .tippy-box {*/
+/*    @apply text-white bg-gray-750 shadow-activeMenuMainDark*/
+/*}*/
+
+.tippy-box .tippy-content {
+    padding: 0;
+}
+
+.tippy-box[data-theme~='menu'] {
+    @apply px-2.5 py-2.5 -ml-1 rounded-custom text-xs font-medium min-w-35.5 text-gray-600 bg-popUp-purple60
+}
+
+.dark .tippy-box[data-theme~='menu'] {
+    @apply text-white bg-popUp-blue770
+}
+
+.tippy-box[data-theme~='table'] {
+    @apply p-2.5 rounded-custom bg-purple/95 text-white dark:bg-tippy-purple700/95 dark:text-gray-100 text-xs
+}
+
+.tippy-box[data-theme~='alert'] {
+    @apply px-1 py-0.5 -ml-1.75 rounded-custom text-xs font-medium text-gray-190 bg-gray-100 dark:bg-blue-720
+}
+
+/*.dark .tippy-box[data-theme~='alert'] {*/
+/*    @apply font-normal text-white bg-blue-770*/
+/*}*/
+
+.tippy-box[data-theme~='call-flow-menu'] {
+    @apply px-2.5 h-10 -ml-1.75 flex items-center rounded-custom min-w-35.5 font-normal text-xs text-gray-600 bg-popUp-purple60
+}
+
+.dark .tippy-box[data-theme~='call-flow-menu'] {
+    @apply font-normal text-white bg-popUp-blue770
+}
+

@@ -1,0 +1,19 @@
+.skeleton-loader {
+    @apply bg-skeleton-loader-integration dark:bg-skeleton-loader-integration-dark;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    animation: move 1.5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}

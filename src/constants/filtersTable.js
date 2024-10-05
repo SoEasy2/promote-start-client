@@ -1,0 +1,16 @@
+export const FILTERS_TABLE = {
+    string: 'string',
+    string_with_empty: 'string_with_empty',
+    number: 'number',
+    number_with_empty: 'number_with_empty',
+    list: 'list',
+    list_with_empty: 'list_with_empty',
+    boolean: 'boolean',
+    date: 'date',
+    select: 'select',
+    select_with_empty: 'select_with_empty',
+    tags: 'tags',
+    caller_profile: 'caller_profile',
+    account_tags: 'account_tags',
+    parameters: 'parameters',
+}

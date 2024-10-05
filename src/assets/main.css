@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap');
+@import 'tippy.js/dist/tippy.css';
+@import '_transitions.css';
+@import '_scroll.css';
+@import '_animations.css';
+@import '_tippy.css';
+@import '_skeletonLoader.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: 111 79 204;
+        --color-primary-light: 162 144 231;
+        --color-primary-gradient-start: 99 66 197;
+        --color-primary-gradient-end: 133 99 233;
+
+        --color-primary-shadow: 128, 91, 235, 0.3;
+
+        --color-primary-gradient-hover-start: 99 66 197;
+        --color-primary-gradient-hover-end: 105 70 206;
+        --color-primary-gradient-active-start: 97 55 218;
+        --color-primary-gradient-active-end: 101 74 181;
+
+        --color-highlight-dark: 45 46 52;
+        --color-highlight-light: 229 226 234;
+        --color-table-select-bg-light: 234 229 248;
+        --color-table-select-bg-dark: 52 45 72;
+
+        --color-menu-bg-light: 247 247 250;
+        --color-pop-up-bg-light: 246 243 252;
+
+        --color-menu-bg-dark: 33 34 40;
+        --color-pop-up-bg-dark: 45 46 52;
+        --color-pop-up-bg-hover-dark: 66 67 78;
+
+        --color-sliders-btn-bg-dark: 30 31 37;
+        --color-sliders-btn-bg-light: 234 229 248;
+        --color-sliders-btn-bg-hover-dark: 44 43 61;
+        --color-sliders-btn-bg-hover-light: 246 243 252;
+
+        --color-secondary: 162 144 231;
+
+        --color-tippy-purple-700: 52 45 72;
+
+        --radius-btn: 5px;
+    }
+}
+
+*:focus {
+    outline: none!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+html {
+    @apply h-full
+}
+
+html.dark {
+    @apply bg-blue-850
+}
+
+body, #app {
+    @apply h-full p-0 m-0
+}
+
+.absolute-center {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+/********************** Notification ****************************/
+
+.vue-notification-group {
+    @apply min-md:min-w-75 min-md:max-w-87.5
+}
+
+.vue-notification-group .vue-notification-wrapper {
+    @apply pb-2.5
+}
+
+.vue-notification-wrapper .vue-notification-template {
+    @apply min-md:m-0 max-md:max-w-max max-md:mx-auto border-none rounded-custom px-5 max-md:px-2 py-2.5 max-md:py-1
+}
+
+.vue-notification-template .notification-content {
+    @apply text-sm max-mb:text-xs font-medium
+}
+
+.vue-notification-template.info-bg {
+    @apply bg-purple-50 dark:bg-purple-700 text-purple
+}
+
+.vue-notification-template.error-bg {
+    background: #F06269;
+    color: #4F4961;
+}
+
+.vue-notification-template.success-bg {
+    background: #2EDD63;
+    color: #4F4961;
+}
+
+/********************** Flags ***************************/
+
+body .flag.small-size {
+    transform: scale(0.32)!important;
+    margin: 0!important;
+}
+
+body .flag.normal-size {
+    transform: scale(0.4)!important;
+    margin: 0!important;
+}
+
+body .flag.normal-size__dropdown{
+    transform: scale(0.4)!important;
+    margin: 0 -5px!important;
+}
+
+/********************* Charts ************************/
+
+.chart-axis-title {
+    @apply fill-gray-370 dark:fill-gray-200
+}
+
+.stack-label {
+    @apply fill-gray-280 dark:fill-gray-100 text-xxs
+}
+
+.legend-text {
+    @apply text-gray-280 dark:text-gray-100 fill-gray-280 dark:fill-gray-100 text-xxs
+}
+
+.tick-line {
+    @apply stroke-gray-100 dark:stroke-gray-700
+}
+
+.tick-line-text {
+    @apply text-gray-370 dark:text-gray-100
+}
+
+/********************** Block ****************************/
+
+.block-bg-border {
+    @apply rounded-2.5 border border-gray-100 dark:border-blue-720 bg-white dark:bg-blue-850
+}
+.block-bg-border-only-mobile {
+    @apply  max-mob:border max-mob:dark:border-blue-720 max-mob:dark:bg-blue-850 max-mob:rounded-none max-mob:border-x-0 max-mob:border-gray-100 dark:border-blue-720 max-mob:bg-white dark:bg-blue-850
+}
+.block-bg-border-max-mob {
+    @apply max-mob:rounded-none max-mob:border-x-0 max-mob:border-gray-100 dark:border-blue-720 max-mob:bg-white dark:bg-blue-850
+}
+.block-bg-hover {
+    @apply min-mob:hover:bg-purple-70 min-mob:dark:hover:bg-blue-730
+}
+
+/********************** text ****************************/
+.app-text-xl {
+    @apply text-xl text-gray-370 dark:text-white font-medium
+}
+
+.app-text-lg {
+    @apply text-lg text-gray-370 dark:text-white font-medium
+}
+
+.app-text-base {
+    @apply text-base text-gray-370 dark:text-white font-medium
+}
+
+.app-text-sm {
+    @apply text-sm text-gray-370 dark:text-white font-medium
+}
+
+.app-text-xs {
+    @apply text-xs text-purple-150 dark:text-gray-280
+}
+
+/********************** filter ****************************/
+.filter {
+    @apply py-5 max-mob:pt-4 max-mob:pb-8 space-y-5 max-mob:space-y-4 w-80 flex flex-col grow overflow-hidden max-mob:w-full bg-white dark:bg-blue-840 border max-mob:border-none border-gray-100 dark:border-blue-720 rounded-1.25
+}
+
+/********************** show by hover ****************************/
+
+.block-hide {
+    @apply opacity-0 transition-all pointer-events-none
+}
+
+.block-show:hover .block-hide {
+    @apply opacity-100 cursor-pointer pointer-events-auto
+}
+
+/********************** page loader ****************************/
+
+.loader-line-mask {
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+    @apply absolute left-1/2 top-1/2 w-15 h-30 -ml-15 -mt-15 overflow-hidden origin-60-60
+}
+
+.loader-line-mask-mini {
+    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0));
+    @apply absolute left-1/2 top-1/2 w-10 h-20 -ml-10 -mt-10 overflow-hidden origin-40-40
+}
+
+.loader-line-mask .loader-line {
+    @apply w-30 h-30 rounded-full shadow-pageLoader
+}
+
+.loader-line-mask-mini .loader-line-mini {
+    @apply w-20 h-20 rounded-full shadow-pageLoader
+}
+
+/********************** contenteditable placeholder ****************************/
+
+[contenteditable][data-placeholder]:empty::before {
+    content: attr(data-placeholder);
+    @apply text-gray-180 dark:text-gray-190;
+}
+
+[contenteditable][data-placeholder]:empty:focus::before {
+    content: "";
+}
+/********************** featurebase widget ****************************/
+
+.fb-survey-widget-wrapper {
+    z-index: 2147483003!important;
+}

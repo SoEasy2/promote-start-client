@@ -1,0 +1,110 @@
+
+/********************* Transition ************************/
+.show-enter-active {
+    animation: show-in 0.2s;
+}
+.show-leave-active {
+    animation: show-in 0.2s reverse;
+}
+@keyframes show-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.list-enter-active, .list-leave-active {
+    transition: all 0.3s;
+}
+.list-enter, .list-leave-to{
+    opacity: 0;
+    transform: translateX(30px);
+}
+.list-move {
+    transition: transform 0.3s;
+}
+
+.tab-transition-enter {
+    transform: translate(100%, 0);
+}
+.tab-transition-leave, .tab-transition-leave-active {
+    position: absolute;
+    top: 0;
+}
+.tab-transition-leave-to {
+    position: absolute;
+    transform: translate(-100%, 0);
+}
+
+.tab-reverse-transition-enter {
+    transform: translate(-100%, 0);
+}
+.tab-reverse-transition-leave, .tab-reverse-transition-leave-to {
+    top: 0;
+    position: absolute;
+    transform: translate(100%, 0);
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active {
+    position: absolute;
+    width: 100%;
+    top: 57px;
+    transition: all 0.3s ease-out;
+}
+.slide-left-enter-from {
+    opacity: 0;
+    transform: translateX(100%);
+}
+.slide-left-leave-to {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.slide-left-filter-mobile-enter-active,
+.slide-left-filter-mobile-leave-active {
+    position: absolute;
+    top: 57px;
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+.slide-left-filter-mobile-enter-from {
+    opacity: 0;
+    transform: translateX(100%);
+}
+.slide-left-filter-mobile-leave-to {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.slide-right-filter-mobile-enter-active,
+.slide-right-filter-mobile-leave-active {
+    position: absolute;
+    top: 57px;
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+.slide-right-filter-mobile-enter-from {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+.slide-right-filter-mobile-leave-to {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+.fade-enter-active, .fade-leave-active {
+    position: absolute;
+    width: 100%;
+    transition: opacity .3s;
+}
+.fade-enter-from, .fade-leave-to {
+    opacity: 0;
+}
+
+.expand-collapse-enter-active, .expand-collapse-leave-active {
+    overflow: hidden;
+}

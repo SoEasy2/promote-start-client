@@ -1,0 +1,14 @@
+/src/plugins/pieChart.js
+/src/plugins/smsStackChart.js
+/src/plugins/stackBarChart.js
+/src/plugins/coloris
+
+/src/components/icons
+/src/components/recording/mp3-encoder.js
+/src/assets
+/dist
+/node_modules
+
+postcss.config.js
+tailwind.config.js
+vite.config.js

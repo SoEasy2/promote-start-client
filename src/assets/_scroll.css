@@ -1,0 +1,37 @@
+
+.custom-scroll {
+    @apply overflow-auto scrollbar scrollbar-w-2 scrollbar-h-2 max-mob:scrollbar-w-1 max-mob:scrollbar-h-1 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-gray-100 scrollbar-track-transparent dark:scrollbar-thumb-blue-720;
+}
+
+.custom-scroll-always {
+    @apply overflow-y-scroll scrollbar scrollbar-w-2 scrollbar-h-2 max-mob:scrollbar-w-1 max-mob:scrollbar-h-1 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-gray-100 scrollbar-track-transparent dark:scrollbar-thumb-blue-720;
+}
+
+.custom-scroll-y {
+    @apply overflow-y-auto overflow-x-hidden scrollbar  scrollbar-w-2 scrollbar-h-2 max-mob:scrollbar-w-1 max-mob:scrollbar-h-1 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-gray-100 scrollbar-track-transparent dark:scrollbar-thumb-blue-720;
+}
+
+.custom-scroll-x {
+    @apply overflow-x-auto overflow-y-hidden scrollbar  scrollbar-w-2 scrollbar-h-2 max-mob:scrollbar-w-1 max-mob:scrollbar-h-1 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-gray-100 scrollbar-track-transparent dark:scrollbar-thumb-blue-720;
+}
+
+.custom-scroll-x-w-0 {
+    @apply overflow-x-auto overflow-y-hidden scrollbar scrollbar-w-0 scrollbar-h-0 scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-gray-100 scrollbar-track-transparent dark:scrollbar-thumb-blue-720;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar {
+    background: transparent;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background:#342D48;
+}
+::-webkit-scrollbar-thumb:hover {
+    background:#5837B8;
+}
