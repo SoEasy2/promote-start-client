@@ -55,5 +55,267 @@
     "user_profile": "Профиль пользователя",
     "account_settings": "Настройки аккаунта",
     "activity_history": "История активности"
+  },
+  "ad-campaigns": {
+    "googleAds": {
+      "title-main-parameters-section": "Основные параметры кампании",
+      "title-description-main-parameters-section": "Включает ключевые обязательные поля для создания и идентификации кампании",
+
+      "title-resource-name-main-parameters-section": "Имя ресурса",
+      "description-resource-name-main-parameters-section": "Уникальное имя ресурса кампании",
+      "placeholder-resource-name-main-parameters-section": "Введите Имя Ресурса",
+
+      "title-id-main-parameters-section": "ID",
+      "description-id-main-parameters-section": "Идентификатор кампании",
+      "placeholder-id-main-parameters-section": "Введите идентификатор кампании",
+
+      "title-name-main-parameters-section": "Имя",
+      "description-name-main-parameters-section": "Название кампании",
+      "placeholder-name-main-parameters-section": "Введите Название кампании",
+
+      "title-status-main-parameters-section": "Статус",
+      "description-status-main-parameters-section": "Статус кампании",
+      "placeholder-status-main-parameters-section": "Выберите",
+
+      "title-advertising-channel-type-main-parameters-section": "Тип рекламного канала",
+      "description-advertising-channel-type-main-parameters-section": " Тип рекламного канала (поисковая, медийная сеть и т.д.)",
+      "placeholder-advertising-channel-type-main-parameters-section": "Выберите",
+
+      "title-advertising-channel-sub-type-main-parameters-section": " Подтип рекламного канала",
+      "description-advertising-channel-sub-type-main-parameters-section": "Подтип рекламного канала, уточняющий формат или специфику кампании в рамках основного канала (например, динамические поисковые объявления, реклама на YouTube)",
+      "placeholder-advertising-channel-sub-type-main-parameters-section": "Выберите",
+
+      "title-campaign-budget-main-parameters-section": "Бюджет Кампании",
+      "description-campaign-budget-main-parameters-section": "Установленный бюджет для кампании, определяющий максимальные расходы на рекламу",
+      "placeholder-campaign-budget-main-parameters-section": "Введите бюджет кампании",
+
+      "title-campaign-group-main-parameters-section": "Граппа Кампании",
+      "description-campaign-group-main-parameters-section": "Группа, к которой относится кампания, используемая для организации и управления несколькими кампаниями одновременно",
+      "placeholder-campaign-group-main-parameters-section": "Введите группу кампании",
+
+      "title-labels-main-parameters-section": "Метки",
+      "description-labels-main-parameters-section": "Метки, которые можно применять к кампании для удобства сортировки и фильтрации, позволяющие легче управлять и анализировать рекламные активы",
+      "placeholder-labels-main-parameters-section": "Введите метки",
+
+
+
+      "title-time-parameters-section": "Временные параметры",
+      "title-description-time-parameters-section": "Параметры, связанные с временем проведения кампании",
+
+      "title-start-date-time-parameters-section": "Дата начала",
+      "description-start-date-time-parameters-section": "Дата начала кампании, указывающая, когда реклама начнет показываться",
+      "placeholder-start-date-time-parameters-section": "Введите дату начала",
+
+      "title-end-date-time-parameters-section": "Дата конца",
+      "description-end-date-time-parameters-section": "Дата окончания кампании, определяющая, когда реклама прекратит показываться",
+      "placeholder-end-date-time-parameters-section": "Введите дату конца",
+
+
+
+      "title-betting-strategies-options-section": "Параметры стратегий ставок",
+      "title-description-betting-strategies-options-section": "Параметры, которые определяют стратегию ставок и методы управления бюджетом кампании",
+
+      "title-bidding-strategy-betting-strategies-options-section": "Стратегия Ставок",
+      "description-bidding-strategy-betting-strategies-options-section": "Стратегия управления ставками, определяющая подход к оптимизации расходов",
+      "placeholder-bidding-strategy-betting-strategies-options-section": "Введите стратегию ставок",
+
+      "title-bidding-strategy-type-betting-strategies-options-section": "Тип Стратегии Ставок",
+      "description-bidding-strategy-type-betting-strategies-options-section": "Тип выбранной стратегии ставок",
+      "placeholder-bidding-strategy-type-betting-strategies-options-section": "Введите тип стратегии ставок",
+
+      "title-bidding-strategy-system-status-betting-strategies-options-section": "Статус стратегии ставок",
+      "description-bidding-strategy-system-status-betting-strategies-options-section": "Системный статус стратегии ставок",
+      "placeholder-bidding-strategy-system-status-betting-strategies-options-section": "Введите статус стратегии ставок",
+
+      "title-manual-cpc-betting-strategies-options-section": "Ручное CPC",
+      "description-manual-cpc-betting-strategies-options-section": "Контроль ручной ставки за клик, позволяющий устанавливать стоимость за клик",
+      "placeholder-manual-cpc-betting-strategies-options-section": "Введите ручное CPC",
+
+      "title-manual-cpm-betting-strategies-options-section": "Ручное CPM",
+      "description-manual-cpm-betting-strategies-options-section": "Ручной контроль ставок за 1000 показов, позволяющий устанавливать стоимость за 1000 показов рекламы",
+      "placeholder-manual-cpm-betting-strategies-options-section": "Введите ручное CPM",
+
+      "title-manual-cpv-betting-strategies-options-section": "Ручное CPV",
+      "description-manual-cpv-betting-strategies-options-section": "Ручное управление ставками за просмотр видео, устанавливающее стоимость за каждое просмотренное видео",
+      "placeholder-manual-cpv-betting-strategies-options-section": "Введите ручное CPV",
+
+      "title-maximize-conversions-betting-strategies-options-section": "Максимизация конверсий",
+      "description-maximize-conversions-betting-strategies-options-section": "Настройка для автоматического увеличения числа конверсий с помощью оптимизации ставок",
+      "placeholder-maximize-conversions-betting-strategies-options-section": "Введите стратегию для максимизации конверсий",
+
+      "title-maximize-conversion-value-betting-strategies-options-section": "Максимизация стоимости конверсий",
+      "description-maximize-conversion-value-betting-strategies-options-section": "Настройка для максимизации общей стоимости конверсий с помощью оптимизации ставок",
+      "placeholder-maximize-conversion-value-betting-strategies-options-section": "Введите стратегию для максимизации стоимости конверсий",
+
+      "title-target-cpa-betting-strategies-options-section": "Целевая стоимость за конверсию (CPA)",
+      "description-target-cpa-betting-strategies-options-section": "Настройка для установки целевой стоимости за конверсию (CPA) для оптимизации ставок",
+      "placeholder-target-cpa-betting-strategies-options-section": "Введите целевую стоимость за конверсию (CPA)",
+
+      "title-target-roas-betting-strategies-options-section": "Целевая рентабельность инвестиций (ROAS)",
+      "description-target-roas-betting-strategies-options-section": "Настройка для установки целевой рентабельности инвестиций (ROAS) для оптимизации ставок",
+      "placeholder-target-roas-betting-strategies-options-section": "Введите целевую рентабельность инвестиций (ROAS)",
+
+      "title-target-spend-betting-strategies-options-section": "Целевая сумма расходов",
+      "description-target-spend-betting-strategies-options-section": "Настройка для установки целевой суммы расходов для оптимизации ставок",
+      "placeholder-target-spend-betting-strategies-options-section": "Введите целевую сумму расходов",
+
+      "title-target-impression-share-betting-strategies-options-section": "Целевая доля показов",
+      "description-target-impression-share-betting-strategies-options-section": "Настройка для установки целевой доли показов для оптимизации ставок",
+      "placeholder-target-impression-share-betting-strategies-options-section": "Введите целевую долю показов",
+
+      "title-target-cpm-betting-strategies-options-section": "Целевая стоимость за 1000 показов (CPM)",
+      "description-target-cpm-betting-strategies-options-section": "Настройка для установки целевой стоимости за 1000 показов (CPM) для оптимизации ставок",
+      "placeholder-target-cpm-betting-strategies-options-section": "Введите целевую стоимость за 1000 показов (CPM)",
+
+      "title-target-cpv-betting-strategies-options-section": "Целевая стоимость за просмотр (CPV)",
+      "description-target-cpv-betting-strategies-options-section": "Настройка для установки целевой стоимости за просмотр (CPV) для оптимизации ставок",
+      "placeholder-target-cpv-betting-strategies-options-section": "Введите целевую стоимость за просмотр (CPV)",
+
+      "title-commission-betting-strategies-options-section": "Комиссия",
+      "description-commission-betting-strategies-options-section": "Настройка для выбора стратегии на основе комиссии, при которой оплата является процентом от продаж",
+      "placeholder-commission-betting-strategies-options-section": "Введите комиссию",
+
+      "title-percent-cpc-betting-strategies-options-section": "Процентная ставка за клик (CPC)",
+      "description-percent-cpc-betting-strategies-options-section": "Настройка для установки процентной ставки за клик (CPC), где ставки являются процентом от стоимости клика",
+      "placeholder-percent-cpc-betting-strategies-options-section": "Введите процентную ставку за клик",
+
+
+
+      "title-targeting-and-audience-settings-section": "Настройки таргетинга и аудитории",
+      "title-description-targeting-and-audience-settings-section": "Параметры, которые управляют таргетингом аудитории и настройками геолокации",
+
+      "title-geo-target-type-settings-targeting-and-audience-settings-section": "Настройка географического таргетинга",
+      "description-geo-target-type-settings-section": "Настройка для определения параметров географического таргетинга",
+      "placeholder-geo-target-type-settings-section": "Введите настройки географического таргетинга",
+
+      "title-targeting-settings-targeting-and-audience-settings-section": "Настройки таргетинга",
+      "description-targeting-settings-section": "Настройки для управления общими параметрами таргетинга",
+      "placeholder-targeting-settings-section": "Введите настройки таргетинга",
+
+      "title-audience-settings-targeting-and-audience-settings-section": "Настройки аудитории",
+      "description-audience-settings-section": "Настройка для определения параметров аудитории",
+      "placeholder-audience-settings-section": "Введите настройки аудитории",
+
+      "title-dynamic-search-ads-settings-targeting-and-audience-settings-section": "Настройки динамических поисковых объявлений",
+      "description-dynamic-search-ads-settings-section": "Настройка для управления динамическими поисковыми объявлениями",
+      "placeholder-dynamic-search-ads-settings-section": "Введите настройки динамических поисковых объявлений",
+
+      "title-local-campaign-settings-targeting-and-audience-settings-section": "Настройки локальной кампании",
+      "description-local-campaign-settings-section": "Настройка для управления локальными рекламными кампаниями",
+      "placeholder-local-campaign-settings-section": "Введите настройки локальной кампании",
+
+      "title-app-campaign-settings-targeting-and-audience-settings-section": "Настройки кампании для приложений",
+      "description-app-campaign-settings-section": "Настройка для управления кампаниями приложений",
+      "placeholder-app-campaign-settings-section": "Введите настройки кампании приложений",
+
+      "title-shopping-settings-targeting-and-audience-settings-section": "Настройки кампаний Google Shopping",
+      "description-shopping-settings-section": "Настройка для управления кампаниями Google Shopping",
+      "placeholder-shopping-settings-section": "Введите настройки кампании Google Shopping",
+
+      "title-hotel-settings-targeting-and-audience-settings-section": "Настройки отельной кампании",
+      "description-hotel-settings-section": "Настройка для управления рекламными кампаниями отелей",
+      "placeholder-hotel-settings-section": "Введите настройки отельной кампании",
+
+
+      "title-reporting-and-tracking-options-section": "Параметры отчетности и отслеживания",
+      "title-description-reporting-and-tracking-options-section": "Настройки, связанные с анализом эффективности кампаний и отслеживанием результатов",
+
+      "title-tracking-url-template-reporting-and-tracking-options-section": "Шаблон URL для отслеживания",
+      "description-tracking-url-template-section": "Шаблон для отслеживания URL, используемых в ваших кампаниях.",
+      "placeholder-tracking-url-template-section": "Введите шаблон URL для отслеживания",
+
+      "title-url-custom-parameters-reporting-and-tracking-options-section": "Параметры URL",
+      "description-url-custom-parameters-section": "Пользовательские параметры, которые можно добавить к вашим URL для отслеживания.",
+      "placeholder-url-custom-parameters-section": "Введите параметры URL",
+
+      "title-final-url-suffix-reporting-and-tracking-options-section": "Суффикс финального URL",
+      "description-final-url-suffix-section": "Суффикс, добавляемый к финальному URL после параметров отслеживания.",
+      "placeholder-final-url-suffix-section": "Введите суффикс финального URL",
+
+      "title-real-time-bidding-setting-reporting-and-tracking-options-section": "Настройка реального времени торгов",
+      "description-real-time-bidding-setting-section": "Настройки для реального времени торгов в ваших кампаниях.",
+      "placeholder-real-time-bidding-setting-section": "Введите настройку реального времени торгов",
+
+      "title-frequency-caps-reporting-and-tracking-options-section": "Ограничения частоты показов",
+      "description-frequency-caps-section": "Настройки для ограничения частоты показов рекламы.",
+      "placeholder-frequency-caps-section": "Введите ограничения частоты показов",
+
+      "title-optimization-score-reporting-and-tracking-options-section": "Оценка оптимизации",
+      "description-optimization-score-section": "Оценка, указывающая, насколько хорошо оптимизирована ваша кампания.",
+      "placeholder-optimization-score-section": "Введите оценку оптимизации",
+
+      "title-vanity-pharma-reporting-and-tracking-options-section": "Vanity Pharma",
+      "description-vanity-pharma-section": "Настройки для кампаний Vanity Pharma.",
+      "placeholder-vanity-pharma-section": "Введите настройки Vanity Pharma",
+
+      "title-tracking-settings-reporting-and-tracking-options-section": "Настройки отслеживания",
+      "description-tracking-settings-section": "Настройки, связанные с отслеживанием эффективности и конверсий.",
+      "placeholder-tracking-settings-section": "Введите настройки отслеживания",
+
+
+
+      "title-advanced-settings-section": "Продвинутые настройки",
+      "title-description-advanced-settings-section": "Опциональные параметры, позволяющие более тонко настроить оптимизацию и обслуживание кампаний",
+
+      "title-ad-serving-optimization-status-advanced-settings-section": "Статус оптимизации показов",
+      "description-ad-serving-optimization-status-section": "Статус оптимизации показа рекламы.",
+      "placeholder-ad-serving-optimization-status-section": "Введите статус оптимизации показов",
+
+      "title-local-services-campaign-settings-advanced-settings-section": "Настройки локальных сервисов",
+      "description-local-services-campaign-settings-section": "Настройки для кампаний, сосредоточенных на локальных сервисах.",
+      "placeholder-local-services-campaign-settings-section": "Введите настройки локальных сервисов",
+
+      "title-travel-campaign-settings-advanced-settings-section": "Настройки кампании путешествий",
+      "description-travel-campaign-settings-section": "Настройки для кампаний, связанных с путешествиями.",
+      "placeholder-travel-campaign-settings-section": "Введите настройки кампании путешествий",
+
+      "title-video-campaign-settings-advanced-settings-section": "Настройки видео-кампании",
+      "description-video-campaign-settings-section": "Настройки для видеорекламных кампаний.",
+      "placeholder-video-campaign-settings-section": "Введите настройки видео-кампании",
+
+      "title-network-settings-advanced-settings-section": "Настройки сети",
+      "description-network-settings-section": "Настройки сети, используемой в ваших кампаниях.",
+      "placeholder-network-settings-section": "Введите настройки сети",
+
+      "title-performance-max-upgrade-advanced-settings-section": "Обновление Performance Max",
+      "description-performance-max-upgrade-section": "Настройки для обновления до Performance Max.",
+      "placeholder-performance-max-upgrade-section": "Введите обновление Performance Max",
+
+      "title-optimization-goal-setting-advanced-settings-section": "Настройки целей оптимизации",
+      "description-optimization-goal-setting-section": "Настройки для определения целей оптимизации.",
+      "placeholder-optimization-goal-setting-section": "Введите настройки целей оптимизации",
+
+      "title-excluded-parent-asset-field-types-advanced-settings-section": "Исключенные типы полей активов",
+      "description-excluded-parent-asset-field-types-section": "Типы полей активов, которые исключены.",
+      "placeholder-excluded-parent-asset-field-types-section": "Введите исключенные типы полей активов",
+
+      "title-excluded-parent-asset-set-types-advanced-settings-section": "Исключенные типы наборов активов",
+      "description-excluded-parent-asset-set-types-section": "Типы наборов активов, которые исключены.",
+      "placeholder-excluded-parent-asset-set-types-section": "Введите исключенные типы наборов активов",
+
+      "title-selective-optimization-advanced-settings-section": "Селективная оптимизация",
+      "description-selective-optimization-section": "Настройки для селективной оптимизации кампаний.",
+      "placeholder-selective-optimization-section": "Введите селективную оптимизацию",
+
+      "title-payment-mode-advanced-settings-section": "Режим оплаты",
+      "description-payment-mode-section": "Режим оплаты для кампании.",
+      "placeholder-payment-mode-section": "Введите режим оплаты",
+
+      "title-url-expansion-opt-out-advanced-settings-section": "Отключение автоматического расширения URL",
+      "description-url-expansion-opt-out-section": "Настройка для отключения автоматического расширения URL.",
+      "placeholder-url-expansion-opt-out-section": "Введите отключение автоматического расширения URL",
+
+      "title-video-brand-safety-suitability-advanced-settings-section": "Соответствие видео стандартам безопасности бренда",
+      "description-video-brand-safety-suitability-section": "Настройки для обеспечения безопасности бренда видеообъявлений.",
+      "placeholder-video-brand-safety-suitability-section": "Введите соответствие видео стандартам безопасности бренда",
+
+      "title-hotel-property-asset-set-advanced-settings-section": "Набор активов отеля",
+      "description-hotel-property-asset-set-section": "Набор активов, связанный с отелями.",
+      "placeholder-hotel-property-asset-set-section": "Введите набор активов отеля",
+
+      "title-listing-type-advanced-settings-section": "Тип листинга",
+      "description-listing-type-section": "Тип листинга для объявлений (например, для недвижимости).",
+      "placeholder-listing-type-section": "Введите тип листинга"
+    }
   }
 }

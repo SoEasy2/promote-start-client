@@ -184,6 +184,16 @@ export const BASE_ROUTES = [
                 component: () => import('@/views/Ad-Campaigns/GoogleAds/ManageGoogleAds.vue'),
             },
             {
+                path: 'google/:id',
+                name: ROUTES.google_ads_detail.name,
+                meta: {
+                    layout: 'empty',
+                    name: ROUTES.google_ads_detail.format_name,
+                    reference: ROUTES.ad_campaigns.name,
+                },
+                component: () => import('@/views/Ad-Campaigns/GoogleAds/DetailGoogleAds.vue'),
+            },
+            {
                 path: 'facebook',
                 name: ROUTES.facebook_ads.name,
                 meta: {

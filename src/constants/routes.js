@@ -31,6 +31,7 @@ const ROUTES = {
     // Рекламные кампании
     ad_campaigns: { name: 'ad_campaigns', format_name: 'sidebar.ad_campaigns' },
     google_ads: { name: 'google_ads', format_name: 'sidebar.google_ads' },
+    google_ads_detail: { name: 'google_ads_detail', format_name: 'sidebar.google_ads_detail' },
     facebook_ads: { name: 'facebook_ads', format_name: 'sidebar.facebook_ads' },
     instagram_ads: { name: 'instagram_ads', format_name: 'sidebar.instagram_ads' },
     linkedin_ads: { name: 'linkedin_ads', format_name: 'sidebar.linkedin_ads' },

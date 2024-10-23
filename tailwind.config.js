@@ -1,3 +1,4 @@
+
 const sideBarWidthMain = 13
 const sideBarWidthMini = 3.5
 

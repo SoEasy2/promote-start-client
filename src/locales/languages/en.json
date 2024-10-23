@@ -55,5 +55,269 @@
     "user_profile": "User Profile",
     "account_settings": "Account Settings",
     "activity_history": "Activity History"
+  },
+  "ad-campaigns": {
+    "googleAds": {
+      "title-main-parameters-section": "Main campaign parameters",
+      "title-description-main-parameters-section": "Includes key required fields for creating and identifying a campaign",
+
+      "title-resource-name-main-parameters-section": "Resource name",
+      "description-resource-name-main-parameters-section": "Unique name of the campaign resource",
+      "placeholder-resource-name-main-parameters-section": "Type Resource Name",
+
+      "title-id-main-parameters-section": "ID",
+      "description-id-main-parameters-section": "Campaign ID",
+      "placeholder-id-main-parameters-section": "Type Campaign ID",
+
+      "title-name-main-parameters-section": "Name",
+      "description-name-main-parameters-section": "Campaign name",
+      "placeholder-name-main-parameters-section": "Type Campaign Name",
+
+      "title-status-main-parameters-section": "Status",
+      "description-status-main-parameters-section": "Campaign status",
+      "placeholder-status-main-parameters-section": "Choose",
+
+      "title-advertising-channel-type-main-parameters-section": "Advertising Channel Type",
+      "description-advertising-channel-type-main-parameters-section": "Type of advertising channel (search, media network, etc.)",
+      "placeholder-advertising-channel-type-main-parameters-section": "Choose",
+
+      "title-advertising-channel-sub-type-main-parameters-section": "Advertising Channel Sub Type",
+      "description-advertising-channel-sub-type-main-parameters-section": "An advertising channel subtype that specifies the format or specifics of a campaign within the main channel (e.g. dynamic search ads, YouTube advertising)",
+      "placeholder-advertising-channel-sub-type-main-parameters-section": "Choose",
+
+      "title-campaign-budget-main-parameters-section": "Campaign Budget",
+      "description-campaign-budget-main-parameters-section": "A set budget for a campaign that determines the maximum advertising spend",
+      "placeholder-campaign-budget-main-parameters-section": "Type Campaign Budget",
+
+      "title-campaign-group-main-parameters-section": "Campaign Group",
+      "description-campaign-group-main-parameters-section": "A group that a campaign belongs to, used to organize and manage multiple campaigns at once",
+      "placeholder-campaign-group-main-parameters-section": "Type Campaign Group",
+
+      "title-labels-main-parameters-section": "Labels",
+      "description-labels-main-parameters-section": "Labels that can be applied to a campaign for easy sorting and filtering, making it easier to manage and analyze your ad assets",
+      "placeholder-labels-main-parameters-section": "Type Labels",
+
+
+
+      "title-time-parameters-section": "Time parameters",
+      "title-description-time-parameters-section": "Parameters related to the campaign time",
+
+      "title-start-date-time-parameters-section": "Start Date",
+      "description-start-date-time-parameters-section": "The campaign start date, which indicates when the ad will start running",
+      "placeholder-start-date-time-parameters-section": "Type Start Date",
+
+      "title-end-date-time-parameters-section": "End Date",
+      "description-end-date-time-parameters-section": "The campaign end date, which determines when the ad will stop running",
+      "placeholder-end-date-time-parameters-section": "Type End Date",
+
+
+
+      "title-betting-strategies-options-section": "Betting Strategies Options",
+      "title-description-betting-strategies-options-section": "Parameters that determine the betting strategy and methods of managing the company's budget",
+
+      "title-bidding-strategy-betting-strategies-options-section": "Bidding Strategy",
+      "description-bidding-strategy-betting-strategies-options-section": "A bid management strategy that defines the approach to optimizing costs",
+      "placeholder-bidding-strategy-betting-strategies-options-section": "Type Bidding Strategy",
+
+      "title-bidding-strategy-type-betting-strategies-options-section": "Bidding Strategy Type",
+      "description-bidding-strategy-type-betting-strategies-options-section": "The type of betting strategy selected",
+      "placeholder-bidding-strategy-type-betting-strategies-options-section": "Type Bidding Strategy Type",
+
+      "title-bidding-strategy-system-status-betting-strategies-options-section": "Bidding Strategy Status",
+      "description-bidding-strategy-system-status-betting-strategies-options-section": "Betting system status",
+      "placeholder-bidding-strategy-system-status-betting-strategies-options-section": "Type System Betting Status",
+
+      "title-manual-cpc-betting-strategies-options-section": "Manual CPC",
+      "description-manual-cpc-betting-strategies-options-section": "Manual bid per click control, allowing you to set the cost per click",
+      "placeholder-manual-cpc-betting-strategies-options-section": "Type Manual CPC",
+
+      "title-manual-cpm-betting-strategies-options-section": "Manual CPM",
+      "description-manual-cpm-betting-strategies-options-section": "Manual control of bids per 1000 impressions, allowing you to set the cost per 1000 ad impressions",
+      "placeholder-manual-cpm-betting-strategies-options-section": "Type Manual CPM",
+
+      "title-manual-cpv-betting-strategies-options-section": "Manual CPV",
+      "description-manual-cpv-betting-strategies-options-section": "Manual video view bid management that sets the cost for each video viewed.",
+      "placeholder-manual-cpv-betting-strategies-options-section": "Type Manual CPV",
+
+      "title-maximize-conversions-betting-strategies-options-section": "Maximize Conversions",
+      "description-maximize-conversions-betting-strategies-options-section": "A setting to automatically increase the number of conversions by optimizing bids",
+      "placeholder-maximize-conversions-betting-strategies-options-section": "Type Maximize Conversions",
+
+      "title-maximize-conversion-value-betting-strategies-options-section": "Maximize Conversion Value",
+      "description-maximize-conversion-value-betting-strategies-options-section": "A setting to maximize the total value of conversions by optimizing bids",
+      "placeholder-maximize-conversion-value-betting-strategies-options-section": "Type Maximize Conversion Value",
+
+      "title-target-cpa-betting-strategies-options-section": "Target CPA",
+      "description-target-cpa-betting-strategies-options-section": "A setting to set a target cost per acquisition (CPA) for optimizing bids",
+      "placeholder-target-cpa-betting-strategies-options-section": "Type Target CPA",
+
+      "title-target-roas-betting-strategies-options-section": "Target ROAS",
+      "description-target-roas-betting-strategies-options-section": "A setting to set a target return on ad spend (ROAS) for optimizing bids",
+      "placeholder-target-roas-betting-strategies-options-section": "Type Target ROAS",
+
+      "title-target-spend-betting-strategies-options-section": "Target Spend",
+      "description-target-spend-betting-strategies-options-section": "A setting to set a target spending amount for optimizing bids",
+      "placeholder-target-spend-betting-strategies-options-section": "Type Target Spend",
+
+      "title-target-impression-share-betting-strategies-options-section": "Target Impression Share",
+      "description-target-impression-share-betting-strategies-options-section": "A setting to set a target impression share for optimizing bids",
+      "placeholder-target-impression-share-betting-strategies-options-section": "Type Target Impression Share",
+
+      "title-target-cpm-betting-strategies-options-section": "Target CPM",
+      "description-target-cpm-betting-strategies-options-section": "A setting to set a target cost per 1000 impressions (CPM) for optimizing bids",
+      "placeholder-target-cpm-betting-strategies-options-section": "Type Target CPM",
+
+      "title-target-cpv-betting-strategies-options-section": "Target CPV",
+      "description-target-cpv-betting-strategies-options-section": "A setting to set a target cost per view (CPV) for optimizing bids",
+      "placeholder-target-cpv-betting-strategies-options-section": "Type Target CPV",
+
+      "title-commission-betting-strategies-options-section": "Commission",
+      "description-commission-betting-strategies-options-section": "A setting for setting a commission-based bidding strategy, where payment is a percentage of sales",
+      "placeholder-commission-betting-strategies-options-section": "Type Commission",
+
+      "title-percent-cpc-betting-strategies-options-section": "Percent CPC",
+      "description-percent-cpc-betting-strategies-options-section": "A setting for setting a percentage-based cost-per-click (CPC), where bids are a percentage of the click value",
+      "placeholder-percent-cpc-betting-strategies-options-section": "Type Percent CPC",
+
+
+
+      "title-targeting-and-audience-settings-section": "Targeting and audience settings",
+      "title-description-targeting-and-audience-settings-section": "Parameters that control audience targeting and geolocation settings",
+
+      "title-geo-target-type-settings-targeting-and-audience-settings-section": "Geo Target Type Setting",
+      "description-geo-target-type-settings-section": "A setting for defining geographic targeting options",
+      "placeholder-geo-target-type-settings-section": "Type Geo Target Type Setting",
+
+      "title-targeting-settings-targeting-and-audience-settings-section": "Targeting Settings",
+      "description-targeting-settings-section": "Settings for managing general targeting parameters",
+      "placeholder-targeting-settings-section": "Type Targeting Settings",
+
+      "title-audience-settings-targeting-and-audience-settings-section": "Audience Settings",
+      "description-audience-settings-section": "A setting for defining audience parameters",
+      "placeholder-audience-settings-section": "Type Audience Settings",
+
+      "title-dynamic-search-ads-settings-targeting-and-audience-settings-section": "Dynamic Search Ads Settings",
+      "description-dynamic-search-ads-settings-section": "A setting for managing dynamic search ads",
+      "placeholder-dynamic-search-ads-settings-section": "Type Dynamic Search Ads Settings",
+
+      "title-local-campaign-settings-targeting-and-audience-settings-section": "Local Campaign Settings",
+      "description-local-campaign-settings-section": "A setting for managing local advertising campaigns",
+      "placeholder-local-campaign-settings-section": "Type Local Campaign Settings",
+
+      "title-app-campaign-settings-targeting-and-audience-settings-section": "App Campaign Settings",
+      "description-app-campaign-settings-section": "A setting for managing app campaigns",
+      "placeholder-app-campaign-settings-section": "Type App Campaign Settings",
+
+      "title-shopping-settings-targeting-and-audience-settings-section": "Shopping Campaign Settings",
+      "description-shopping-settings-section": "A setting for managing Google Shopping campaigns",
+      "placeholder-shopping-settings-section": "Type Shopping Campaign Settings",
+
+      "title-hotel-settings-targeting-and-audience-settings-section": "Hotel Campaign Settings",
+      "description-hotel-settings-section": "A setting for managing hotel advertising campaigns",
+      "placeholder-hotel-settings-section": "Type Hotel Campaign Settings",
+
+
+
+      "title-reporting-and-tracking-options-section": "Reporting and tracking options",
+      "title-description-reporting-and-tracking-options-section": "Settings related to campaign performance analysis and results tracking",
+
+      "title-tracking-url-template-reporting-and-tracking-options-section": "Tracking URL Template",
+      "description-tracking-url-template-section": "Template for tracking URLs used in your campaigns.",
+      "placeholder-tracking-url-template-section": "Type Tracking URL Template",
+
+      "title-url-custom-parameters-reporting-and-tracking-options-section": "URL Custom Parameters",
+      "description-url-custom-parameters-section": "Custom parameters that can be added to your URLs for tracking.",
+      "placeholder-url-custom-parameters-section": "Type URL Custom Parameters",
+
+      "title-final-url-suffix-reporting-and-tracking-options-section": "Final URL Suffix",
+      "description-final-url-suffix-section": "Suffix added to the final URL after the tracking parameters.",
+      "placeholder-final-url-suffix-section": "Type Final URL Suffix",
+
+      "title-real-time-bidding-setting-reporting-and-tracking-options-section": "Real-Time Bidding Setting",
+      "description-real-time-bidding-setting-section": "Settings for real-time bidding in your campaigns.",
+      "placeholder-real-time-bidding-setting-section": "Type Real-Time Bidding Setting",
+
+      "title-frequency-caps-reporting-and-tracking-options-section": "Frequency Caps",
+      "description-frequency-caps-section": "Settings for limiting the frequency of ad impressions.",
+      "placeholder-frequency-caps-section": "Type Frequency Caps",
+
+      "title-optimization-score-reporting-and-tracking-options-section": "Optimization Score",
+      "description-optimization-score-section": "Score indicating how well your campaign is optimized.",
+      "placeholder-optimization-score-section": "Type Optimization Score",
+
+      "title-vanity-pharma-reporting-and-tracking-options-section": "Vanity Pharma",
+      "description-vanity-pharma-section": "Settings for Vanity Pharma campaigns.",
+      "placeholder-vanity-pharma-section": "Type Vanity Pharma Settings",
+
+      "title-tracking-settings-reporting-and-tracking-options-section": "Tracking Settings",
+      "description-tracking-settings-section": "Settings related to tracking performance and conversions.",
+      "placeholder-tracking-settings-section": "Type Tracking Settings",
+
+
+
+
+      "title-advanced-settings-section": "Advanced settings",
+      "title-description-advanced-settings-section": "Optional parameters that allow you to fine-tune campaign optimization and maintenance",
+
+      "title-ad-serving-optimization-status-advanced-settings-section": "Ad Serving Optimization Status",
+      "description-ad-serving-optimization-status-section": "Status of the ad serving optimization.",
+      "placeholder-ad-serving-optimization-status-section": "Type Ad Serving Optimization Status",
+
+      "title-local-services-campaign-settings-advanced-settings-section": "Local Services Campaign Settings",
+      "description-local-services-campaign-settings-section": "Settings for campaigns focused on local services.",
+      "placeholder-local-services-campaign-settings-section": "Type Local Services Campaign Settings",
+
+      "title-travel-campaign-settings-advanced-settings-section": "Travel Campaign Settings",
+      "description-travel-campaign-settings-section": "Settings for travel-related campaigns.",
+      "placeholder-travel-campaign-settings-section": "Type Travel Campaign Settings",
+
+      "title-video-campaign-settings-advanced-settings-section": "Video Campaign Settings",
+      "description-video-campaign-settings-section": "Settings for video advertising campaigns.",
+      "placeholder-video-campaign-settings-section": "Type Video Campaign Settings",
+
+      "title-network-settings-advanced-settings-section": "Network Settings",
+      "description-network-settings-section": "Settings for the network used in your campaigns.",
+      "placeholder-network-settings-section": "Type Network Settings",
+
+      "title-performance-max-upgrade-advanced-settings-section": "Performance Max Upgrade",
+      "description-performance-max-upgrade-section": "Settings for upgrading to Performance Max.",
+      "placeholder-performance-max-upgrade-section": "Type Performance Max Upgrade",
+
+      "title-optimization-goal-setting-advanced-settings-section": "Optimization Goal Setting",
+      "description-optimization-goal-setting-section": "Settings for defining optimization goals.",
+      "placeholder-optimization-goal-setting-section": "Type Optimization Goal Setting",
+
+      "title-excluded-parent-asset-field-types-advanced-settings-section": "Excluded Parent Asset Field Types",
+      "description-excluded-parent-asset-field-types-section": "Types of asset fields that are excluded.",
+      "placeholder-excluded-parent-asset-field-types-section": "Type Excluded Parent Asset Field Types",
+
+      "title-excluded-parent-asset-set-types-advanced-settings-section": "Excluded Parent Asset Set Types",
+      "description-excluded-parent-asset-set-types-section": "Types of asset sets that are excluded.",
+      "placeholder-excluded-parent-asset-set-types-section": "Type Excluded Parent Asset Set Types",
+
+      "title-selective-optimization-advanced-settings-section": "Selective Optimization",
+      "description-selective-optimization-section": "Settings for selective optimization of campaigns.",
+      "placeholder-selective-optimization-section": "Type Selective Optimization",
+
+      "title-payment-mode-advanced-settings-section": "Payment Mode",
+      "description-payment-mode-section": "Mode of payment for the campaign.",
+      "placeholder-payment-mode-section": "Type Payment Mode",
+
+      "title-url-expansion-opt-out-advanced-settings-section": "URL Expansion Opt-Out",
+      "description-url-expansion-opt-out-section": "Setting to opt-out of automatic URL expansion.",
+      "placeholder-url-expansion-opt-out-section": "Type URL Expansion Opt-Out",
+
+      "title-video-brand-safety-suitability-advanced-settings-section": "Video Brand Safety Suitability",
+      "description-video-brand-safety-suitability-section": "Settings for ensuring video ad brand safety.",
+      "placeholder-video-brand-safety-suitability-section": "Type Video Brand Safety Suitability",
+
+      "title-hotel-property-asset-set-advanced-settings-section": "Hotel Property Asset Set",
+      "description-hotel-property-asset-set-section": "Asset set related to hotel properties.",
+      "placeholder-hotel-property-asset-set-section": "Type Hotel Property Asset Set",
+
+      "title-listing-type-advanced-settings-section": "Listing Type",
+      "description-listing-type-section": "Type of listing for ads (e.g., for real estate).",
+      "placeholder-listing-type-section": "Type Listing Type"
+    }
   }
 }
